@@ -24,6 +24,9 @@ pound = Unit(name='pound', abbr='lb', si=kilogram, to_si_fun=lambda n: n * 0.453
 lb = pound
 
 gram = Unit(name='gram', abbr='g', si=kilogram, to_si_fun=lambda n: n / 1000)
+# tonne
+tonne = Unit(name='tonne', abbr='tn', si=kilogram, to_si_fun=lambda n: n * 1e3)
+tn = tonne
 
 # ampere
 
